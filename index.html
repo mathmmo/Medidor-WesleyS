@@ -10,21 +10,22 @@
             <header>
                 <h1>#Safadometro</h1>
             </header>
-            <section class="formArea">
-                <h2>calcule agora mesmo</h2>
-                <form action="safadometro" method="get">
+            <section id="formArea">
+                <h2>Descubra você mesmo!!</h2>
+                <form action="safadometro.php" method="get">
                     <span class="labels"><label for='cDia'>Dia: </label><br/></span>
-                    <input type="number" id="cDia" name="nDia" min="1" max="31"/><br/>
+                    <input type="number" id="cDia" name="nDia" value="1" min="1" max="31"/><br/>
                     <span class="labels"><label for="cMes">Mês:</label><br/></span>
-                    <input type="number" id="cMes" name="nMes" min="1" max="12" /><br/>
+                    <input type="number" id="cMes" name="nMes" value="1" min="1" max="12" /><br/>
                     <span class="labels"><label for="cAno">Ano:</label><br/></span>
-                    <input type="number" id="cAno" name="nAno" min="1" max="99" /><br/>
+                    <input type="number" id="cAno" name="nAno" value="1" min="1" max="99" /><br/>
                     <input type="submit" class="botao" value="Calcular" />
                 </form> 
             </section>
-<!--            <aside class="prop">
-                Meça agora mesmo a sua safadeza e a de seus amigos!
-            </aside>-->
+            <aside id="prop">
+                <h2>O mundo dá voltas e olha eu por cima!!</h2>
+                <img src="wesley2.png" class="wesley" />
+            </aside>
             <footer>
                 <h3>Safadometro criado por Matheus Martins de Oliveira</h3><p>A partir de um exercicio de uma prova de programação na universidade federal do Ceara.</p>
             </footer>

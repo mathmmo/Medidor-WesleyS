@@ -1,7 +1,7 @@
 body {
     background: url(fundo-show.jpg) no-repeat;
     background-size: cover;
-    font-family: 'Proxima Nova', 'Arial', sans-serif;
+    font-family: 'Proxima Nova';
 }
 
 header {
@@ -14,7 +14,6 @@ header {
 
 header,footer {
     text-align: center;
-    /*font-family: 'open sans', sans-serif;*/
 }
 
 footer {
@@ -45,22 +44,27 @@ div#content {
     background-color: white;
 }
 
-section {
+section#formArea {
+    display: block;
+    float: left;
     padding: 15px;
-    width: 325px;
+    width: 320px;
+    height: 420px;
     border-right: 1px solid lightskyblue;
 }
 
 section h2 {
-    /*font-family: 'open sans', sans-serif;*/
+    text-align: center;
+    margin-top: -10px;
     color: #f18e00;
     font-size: 18pt;
     display: block;
     background-color: #dddddd;
-    padding: 0px 0px 0px 15px;
-    margin-bottom: 15px;
+    padding: 14px 0px 14px 15px;
+    margin-bottom: 25px;
 }
 form label{
+    color: #f18e00;
     font-size: 13pt;
     display: block;
     background-color: #dddddd;
@@ -71,33 +75,106 @@ form label{
 form input {
     margin: 5px;
     margin-left: 15px;
+    margin-bottom: 20px;
 }
 
 .botao {
-    background-color: white;
-    border-color: black; 
+    margin-left: 0px;
+    padding-left: 15px;
+    background-color: #ddddddd;
+    border: none;
     color: #f18e00;
     transition: background-color 1s;
     width: 120px;
-    text-align: center;
+    height: 30px;
+    text-align: left;
     font-weight: bold;
 }
 
 .botao:hover {
-    background-color: #f18e00;
-    border-color: black;
-    color: black;    
+    background-color: #f18e00;    
+    color: #dddddd;    
 }
 
-aside {
-    border-left: 1px solid black;
-}
-
-aside {
-    position: relative;
-    width: 325px;
+aside#prop {
+    left: 450px;
+    width: 340px;
     display: block;
     float: right;
-    top: -180px;
-    padding: 20px;
+}
+
+img.wesley {
+    position: absolute;
+    bottom: 56px;
+    display: block;
+    width: 265px;
+    height: 375px;
+}
+
+img.weslei-aponta {
+    position: absolute;
+    display: block;
+    width: 176px;
+    bottom: 58px;
+}
+
+aside h2 {
+    text-align: center;
+    color: #f18e00;
+    font-size: 18pt;
+    display: block;
+    background-color: #dddddd;
+    padding: 0px 5px 0px 15px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+div#calc {
+    height: 350px;
+    font-size: 25pt;
+    text-align: center;
+}
+
+span.resultado {
+    text-align: center;
+    font-size: 15pt;
+}
+
+a{
+    text-decoration: none;
+    text-align: center; 
+    font-size: 15pt;
+    position: absolute;
+    bottom: 60px;   
+    left: 45%;
+    
+}
+
+span#direita {
+    display: block;
+    position: absolute;
+    width: 250px;
+    float: right;
+    bottom: 120px;
+    left: 32%;
+    margin: 50px 0px 15px 0px;
+}
+
+.botao2 {
+    margin-left: 0px;
+    padding-left: 15px;
+    background-color: #ddddddd;
+    border: none;
+    color: #f18e00;
+    transition: background-color 1s;
+    width: 65px;
+    height: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.botao2:hover {
+    background-color: #f18e00;    
+    color: #dddddd;    
 }
