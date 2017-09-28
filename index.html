@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Safadometro</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estyles.css" />
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <h1>#Safadometro</h1>
+            </header>
+            <section class="formArea">
+                <h2>calcule agora mesmo</h2>
+                <form action="safadometro" method="get">
+                    <span class="labels"><label for='cDia'>Dia: </label><br/></span>
+                    <input type="number" id="cDia" name="nDia" min="1" max="31"/><br/>
+                    <span class="labels"><label for="cMes">Mês:</label><br/></span>
+                    <input type="number" id="cMes" name="nMes" min="1" max="12" /><br/>
+                    <span class="labels"><label for="cAno">Ano:</label><br/></span>
+                    <input type="number" id="cAno" name="nAno" min="1" max="99" /><br/>
+                    <input type="submit" class="botao" value="Calcular" />
+                </form> 
+            </section>
+<!--            <aside class="prop">
+                Meça agora mesmo a sua safadeza e a de seus amigos!
+            </aside>-->
+            <footer>
+                <h3>Safadometro criado por Matheus Martins de Oliveira</h3><p>A partir de um exercicio de uma prova de programação na universidade federal do Ceara.</p>
+            </footer>
+        </div>
+    </body>
+</html>

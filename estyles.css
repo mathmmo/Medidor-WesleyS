@@ -1,0 +1,103 @@
+body {
+    background: url(fundo-show.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Proxima Nova', 'Arial', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid lightskyblue;
+    color: #272727  ;
+    width: 620px;
+    position: relative;
+    left: 40px;
+}
+
+header,footer {
+    text-align: center;
+    /*font-family: 'open sans', sans-serif;*/
+}
+
+footer {
+    border-top: 1px solid lightskyblue;
+    width: 620px;
+    position: relative;
+    left: 40px;
+    clear:both;
+    color: #666666;
+}
+
+footer p {
+    font-size: 9pt;
+    padding-top: -10px;
+}
+
+footer h3 {
+    font-size: 12pt;
+    padding-bottom: -10px;
+    margin-bottom: -15px;
+}
+
+div#content {
+    border-radius: 20px;
+    position: absolute;
+    left: 25%;
+    width: 700px;
+    background-color: white;
+}
+
+section {
+    padding: 15px;
+    width: 325px;
+    border-right: 1px solid lightskyblue;
+}
+
+section h2 {
+    /*font-family: 'open sans', sans-serif;*/
+    color: #f18e00;
+    font-size: 18pt;
+    display: block;
+    background-color: #dddddd;
+    padding: 0px 0px 0px 15px;
+    margin-bottom: 15px;
+}
+form label{
+    font-size: 13pt;
+    display: block;
+    background-color: #dddddd;
+    padding: 0px 0px 0px 15px;
+    margin-bottom: -15px;
+}
+
+form input {
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.botao {
+    background-color: white;
+    border-color: black; 
+    color: #f18e00;
+    transition: background-color 1s;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #f18e00;
+    border-color: black;
+    color: black;    
+}
+
+aside {
+    border-left: 1px solid black;
+}
+
+aside {
+    position: relative;
+    width: 325px;
+    display: block;
+    float: right;
+    top: -180px;
+    padding: 20px;
+}
